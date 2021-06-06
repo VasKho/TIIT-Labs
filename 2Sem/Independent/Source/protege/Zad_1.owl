@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#дата_открытия -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#дата_открытия">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#открытие"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#нагревание -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#нагревание"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#наименование -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#наименование"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#определяет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#определяет"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#открытие -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#открытие">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#синонимы -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#синонимы"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#смесь -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#смесь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#состояние -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#состояние"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#способ_получения -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#способ_получения"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#учёные -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#учёные">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#открытие"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#13_группа -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#13_группа">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#периодическая_система_химических_элементов"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#2_период -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#2_период">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#периодическая_система_химических_элементов"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#атомный_номер -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#атомный_номер"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#аллотропные_модификации -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#аллотропные_модификации">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#периодическая_система_химических_элементов"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#периодическая_система_химических_элементов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#периодическая_система_химических_элементов"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#учёные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#учёные"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#B"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#B2O3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#B2O3">
+        <синонимы rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#борный_ангидрид"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Borum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Borum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Бор -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Бор"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Ж.Гей-Люссак -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Ж.Гей-Люссак">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#учёные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Л.Тенар -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Л.Тенар">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#учёные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бесцветное_кристаллическое -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бесцветное_кристаллическое"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор"/>
+        <дата_открытия rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#1808_г."/>
+        <наименование rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#B"/>
+        <наименование rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Borum"/>
+        <наименование rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Бор"/>
+        <открытие rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Ж.Гей-Люссак"/>
+        <открытие rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#Л.Тенар"/>
+        <состояние rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бесцветное_кристаллическое"/>
+        <состояние rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#красное_кристаллическое"/>
+        <состояние rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#серое_кристаллическое"/>
+        <состояние rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#тёмное_аморфное"/>
+        <атомный_номер rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</атомный_номер>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#борный_ангидрид -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#борный_ангидрид">
+        <синонимы rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#B2O3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#борный_ангидрид_и_металлический_калий -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#борный_ангидрид_и_металлический_калий">
+        <нагревание rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#бор"/>
+        <смесь rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#борный_ангидрид"/>
+        <смесь rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#металлический_калий"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#красное_кристаллическое -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#красное_кристаллическое"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#металлический_калий -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#металлический_калий"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#образование -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#образование">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#аллотропные_модификации"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#переходы -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#переходы">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#аллотропные_модификации"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#серое_кристаллическое -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#серое_кристаллическое"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#температура -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#температура">
+        <определяет rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#образование"/>
+        <определяет rdf:resource="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#переходы"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#тёмное_аморфное -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#тёмное_аморфное"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#1808_г. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vaskho/ontologies/2021/4/untitled-ontology-5#1808_г."/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

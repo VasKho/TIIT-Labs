@@ -1,0 +1,440 @@
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 1020px;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1020px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12 {
+	position:relative;
+}
+
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .grid_1 {
+	width:65px;
+}
+
+.container_12 .grid_2 {
+	width:150px;
+}
+
+.container_12 .grid_3 {
+	width:235px;
+}
+
+.container_12 .grid_4 {
+	width:320px;
+}
+
+.container_12 .grid_5 {
+	width:405px;
+}
+
+.container_12 .grid_6 {
+	width:490px;
+}
+
+.container_12 .grid_7 {
+	width:575px;
+}
+
+.container_12 .grid_8 {
+	width:660px;
+}
+
+.container_12 .grid_9 {
+	width:745px;
+}
+
+.container_12 .grid_10 {
+	width:830px;
+}
+
+.container_12 .grid_11 {
+	width:915px;
+}
+
+.container_12 .grid_12 {
+	width:1000px;
+}
+
+
+
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .prefix_1 {
+	padding-left:85px;
+}
+
+.container_12 .prefix_2 {
+	padding-left:170px;
+}
+
+.container_12 .prefix_3 {
+	padding-left:255px;
+}
+
+.container_12 .prefix_4 {
+	padding-left:340px;
+}
+
+.container_12 .prefix_5 {
+	padding-left:425px;
+}
+
+.container_12 .prefix_6 {
+	padding-left:510px;
+}
+
+.container_12 .prefix_7 {
+	padding-left:595px;
+}
+
+.container_12 .prefix_8 {
+	padding-left:680px;
+}
+
+.container_12 .prefix_9 {
+	padding-left:765px;
+}
+
+.container_12 .prefix_10 {
+	padding-left:850px;
+}
+
+.container_12 .prefix_11 {
+	padding-left:935px;
+}
+
+
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .suffix_1 {
+	padding-right:85px;
+}
+
+.container_12 .suffix_2 {
+	padding-right:170px;
+}
+
+.container_12 .suffix_3 {
+	padding-right:255px;
+}
+
+.container_12 .suffix_4 {
+	padding-right:340px;
+}
+
+.container_12 .suffix_5 {
+	padding-right:425px;
+}
+
+.container_12 .suffix_6 {
+	padding-right:510px;
+}
+
+.container_12 .suffix_7 {
+	padding-right:595px;
+}
+
+.container_12 .suffix_8 {
+	padding-right:680px;
+}
+
+.container_12 .suffix_9 {
+	padding-right:765px;
+}
+
+.container_12 .suffix_10 {
+	padding-right:850px;
+}
+
+.container_12 .suffix_11 {
+	padding-right:935px;
+}
+
+
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .push_1 {
+	left:85px;
+}
+
+.container_12 .push_2 {
+	left:170px;
+}
+
+.container_12 .push_3 {
+	left:255px;
+}
+
+.container_12 .push_4 {
+	left:340px;
+}
+
+.container_12 .push_5 {
+	left:425px;
+}
+
+.container_12 .push_6 {
+	left:510px;
+}
+
+.container_12 .push_7 {
+	left:595px;
+}
+
+.container_12 .push_8 {
+	left:680px;
+}
+
+.container_12 .push_9 {
+	left:765px;
+}
+
+.container_12 .push_10 {
+	left:850px;
+}
+
+.container_12 .push_11 {
+	left:935px;
+}
+
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .pull_1 {
+	left:-85px;
+}
+
+.container_12 .pull_2 {
+	left:-170px;
+}
+
+.container_12 .pull_3 {
+	left:-255px;
+}
+
+.container_12 .pull_4 {
+	left:-340px;
+}
+
+.container_12 .pull_5 {
+	left:-425px;
+}
+
+.container_12 .pull_6 {
+	left:-510px;
+}
+
+.container_12 .pull_7 {
+	left:-595px;
+}
+
+.container_12 .pull_8 {
+	left:-680px;
+}
+
+.container_12 .pull_9 {
+	left:-765px;
+}
+
+.container_12 .pull_10 {
+	left:-850px;
+}
+
+.container_12 .pull_11 {
+	left:-935px;
+}
+
+
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}
+
+*{padding:0;margin:0;}
+body {background: url("i/bgfull.jpg") no-repeat fixed 0 0 / 100% 100% #E4F5F5;background-color:#E4F5F5;color: #333;font: 13px verdana;margin: 35px 0;text-align:left;}
+a{text-decoration:none;}	
+p{line-height:20px;margin-bottom:10px;}
+ul,ol{list-style:none;}	
+#container {background: url("i/bga.png") repeat scroll 0 0 transparent;border: 1px solid #5e5e5e;border-radius: 7px;box-shadow: 0 0 15px #444, 0 1px #FFF inset;padding: 6px;}
+.bttop {float: right;margin-top: -6px;}
+.bttop img {float: left;}
+#wrapper {background: none repeat scroll 0 0 #FFF;border: 1px solid #727272;outline: 1px solid #FFF;}
+.menus {float: left;font: 13px "Segoe UI";height: 30px;padding: 0 10px;}
+.menus li {display: block;float: left;margin-top: 3px;}
+.menus li a {color: #1E395B;display: block;line-height: 21px;padding: 0 15px;height: 22px;}
+.menus .current_page_item a, .menus li a:hover {border: 1px solid #BBCADB;border-radius: 3px 3px 3px 3px;box-shadow: 1px 1px #EFF4F9 inset, -1px -1px #EFF4F9 inset;margin: -1px -1px 0;background: url("i/bgmenuh.png") repeat-x scroll 0px -3px transparent;}
+.nav{background: url("i/bg-menu.png") repeat-x scroll 0 0 transparent;}
+#share42 {display: inline-block;padding: 7px 0 0;float: right;}
+#share42 a {opacity: 0.8}
+#share42 a:hover {opacity: 1}
+#header{height:58px;}
+.logo{margin-bottom:6px;}
+.logo a{color:#474747;}
+.logo h1 {background: url("i/cmd.png") no-repeat scroll 0 0 transparent;display: inline;font: 400 17px 'Trebuchet MS';padding: 0 40px;}
+.breadcrumbs {background:#FFF;border: 1px solid #666;outline: 1px solid #FFF;float: left;font-family: "segoe ui";font-size: 13px;height: 20px;line-height: 18px;padding-left: 6px;width: 762px;}
+.breadcrumbs a{color: #757575;}
+#page {float: right;margin: 0 9px 0 0;}
+.post {float: left;margin-top: 20px;}
+.pind {background:#FCFCFC;border-bottom: 1px solid #F4F7FC;}
+.title a {color: #006E12;font: 700 24px 'Trebuchet MS';}
+.title{color:#00ae1d;font: 700 24px 'Trebuchet MS';}
+.title a:hover {color:#00ae1d; text-decoration:underline;}
+.more-link {background: none repeat scroll 0 0 #F4F7FC;clear: both;color: #06C;display: block;float: right;font-family: "Segoe UI";height: 25px;text-align: center;width: 150px;}
+.meta p {line-height: 28px;}
+.meta a {border-bottom: 1px dotted #333;color: #333;}
+.meta, .navigation{background: url("i/bg-menu.png") repeat-x scroll 0 0 transparent;border-left: 1px solid #9BB1C5;border-right: 1px solid #9BB1C5;border-top: 1px solid #9BB1C5;box-shadow: 0 1px #E0EFFC inset;height: 30px;margin: 20px 0;overflow: hidden;padding: 0 10px;}
+.navigation span, .navigation a {color: #1E395B;display: block;float: left;font-size: 13px;height: 22px;line-height: 27px;padding: 0 10px;}
+.navigation span {font-weight: 700;}
+.abc {background: url("i/abc.png") repeat-x scroll 0 0 transparent;display: block;font: 20px "lucida console";height: 60px;padding-top: 10px;text-align: center;}
+.abc a {color:#333;text-decoration:underline;}
+.related {background: #f4f7fc;margin-bottom: 20px;}
+.related h4 {font: 400 22px "segoe ui";}
+.related ul {font-size: 12px;line-height: 23px;list-style: square outside none;margin-left: 30px;}
+.related a{color: #06C;}
+#sidebar {background: url("i/bgsb.png") repeat-y scroll right 0 transparent;float: left;font: 13px "Segoe UI";margin-right:1px;}
+.bar{margin-top:20px;}
+.bar a{color:#333;}
+.nav_menu-2 {font-size: 12px;line-height: 20px;}
+.nav_menu-2 h4 {background: url("i/bib.png") no-repeat scroll 14px 2px transparent;padding-left: 35px;}
+.nav_menu-2 .menu li a:hover, .nav_menu-2 .menu .current-menu-item > a {text-decoration:underline;}
+.nav_menu-2 .menu li {background: url("i/bg-folder.png") no-repeat scroll 24px 3px transparent;}
+.nav_menu-2 .sub-menu li {background: url("i/file.png") no-repeat scroll 31px 3px transparent;}
+.nav_menu-2 .menu li a {padding-left: 16px;}
+.nav_menu-2 .sub-menu li a {padding-left: 51px;}
+.sub-menu{display:none;}
+.nav_menu-2 li span{background: url("i/634.png") no-repeat scroll 0 0 transparent;cursor: pointer;display: inline-block;height: 15px;margin: -3px 5px;width: 15px;}
+.nav_menu-2 li span:hover{background-position: 0px -30px}
+.ddsg-wrapper li {margin: 25px 0px;}
+.ddsg-wrapper li li {list-style: square outside none;margin: 6px 0px 0px 25px;}
+.activ{background: url("i/637.png") no-repeat scroll 0 0 transparent !important;}
+.text-7 p {background: url("i/info.png") no-repeat scroll 5px 5px #F4F7FC;font: 12px/18px "segoe ui";margin-right: 10px;padding-left: 60px;}
+.wp-post-image {margin: 0 20px 0 0;}
+#searchform {background:#FFF;border: 1px solid #666;float: right;height: 20px;outline: 1px solid #FFF;width: 240px;}
+#s {border: 0 none;float: left;font-family: "segoe ui";font-size: 12px;font-style: italic;height: 20px;outline: 0 none;padding: 0 5px;width: 210px;}
+#searchsubmit {background: url("i/search.png") no-repeat scroll -3px 1px transparent;border: 0 none;cursor: pointer;height: 20px;width: 20px;}
+#footer {background: url("i/bg-footer.png") repeat-x scroll 0 0 transparent;height: 54px;}
+.count {float: right;margin: 10px;opacity: 0.8;}
+.copy {float: left;margin: 5px 10px;}
